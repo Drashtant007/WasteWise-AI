@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/*
+data/processed/*
+data/splits/*
+
+# ML models
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.pkl
+
+# Logs
+logs/
+runs/
+
+# Results generated during experiments
+results/figures/*
+results/metrics/*
+results/reports/*
+
+# TensorBoard
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
