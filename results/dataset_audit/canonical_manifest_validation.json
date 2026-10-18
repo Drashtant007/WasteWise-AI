@@ -1,0 +1,79 @@
+{
+  "validation": "PASS",
+  "manifest": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\results\\dataset_audit\\canonical_manifest.csv",
+  "total_records": 27427,
+  "expected_total_records": 27427,
+  "missing_files": 0,
+  "invalid_images": 0,
+  "duplicate_paths": 0,
+  "duplicate_sha256_records": 68,
+  "duplicate_sha256_status": "known_internal_source_duplicates",
+  "cross_dataset_duplicate_groups": 0,
+  "unmapped_records": 0,
+  "dataset_counts": {
+    "garbage_dataset": 19762,
+    "trashnet_plus_plus": 1344,
+    "medical_waste_4_0": 6321
+  },
+  "expected_dataset_counts": {
+    "garbage_dataset": 19762,
+    "trashnet_plus_plus": 1344,
+    "medical_waste_4_0": 6321
+  },
+  "family_counts": {
+    "e_waste": 1440,
+    "organic_biological": 997,
+    "recyclable": 10338,
+    "textile_reusable": 7304,
+    "residual": 947,
+    "medical": 6401
+  },
+  "class_counts": {
+    "battery": 944,
+    "biological": 997,
+    "cardboard": 1825,
+    "clothes": 5327,
+    "glass": 3262,
+    "metal": 1333,
+    "paper": 1680,
+    "plastic": 2238,
+    "shoes": 1977,
+    "general_trash": 947,
+    "cable": 162,
+    "electronic_device": 334,
+    "medical_waste_object": 80,
+    "gauze": 630,
+    "medical_gloves": 2787,
+    "medical_cap": 438,
+    "medical_glasses": 486,
+    "shoe_cover": 972,
+    "test_tube": 483,
+    "urine_bag": 453,
+    "medical_filter": 72
+  },
+  "policy_counts": {
+    "core_and_expanded_train": 19762,
+    "expanded_train": 1164,
+    "expanded_train_review": 100,
+    "excluded_from_clean_training": 80,
+    "medical_train_validation": 5520,
+    "medical_external_test": 801
+  },
+  "expected_policy_counts": {
+    "core_and_expanded_train": 19762,
+    "excluded_from_clean_training": 80,
+    "expanded_train": 1164,
+    "expanded_train_review": 100,
+    "medical_external_test": 801,
+    "medical_train_validation": 5520
+  },
+  "invalid_datasets": [],
+  "invalid_families": [],
+  "invalid_classes": [],
+  "invalid_policies": [],
+  "trashnet_yolo_found": 0,
+  "medical_b_invalid": 0,
+  "medical_a_invalid": 0,
+  "trashnet_medical_invalid": 0,
+  "overall_pass": true
+}

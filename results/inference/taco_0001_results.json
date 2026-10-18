@@ -1,0 +1,49 @@
+{
+  "image": "taco_0001.jpg",
+  "image_size": {
+    "width": 1537,
+    "height": 2049
+  },
+  "device": "cuda",
+  "detector": {
+    "model": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\runs\\detect\\runs\\detect\\results\\taco_practical\\yolo11n_baseline\\weights\\best.pt",
+    "taxonomy": [
+      "plastic",
+      "glass",
+      "metal",
+      "paper_cardboard",
+      "biological",
+      "other_trash"
+    ],
+    "confidence_threshold": 0.25
+  },
+  "classifier": {
+    "model": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\models\\expanded_resnet50_stage2_best.pth",
+    "taxonomy": [
+      "battery",
+      "biological",
+      "cable",
+      "cardboard",
+      "clothes",
+      "electronic_device",
+      "gauze",
+      "general_trash",
+      "glass",
+      "medical_cap",
+      "medical_glasses",
+      "medical_gloves",
+      "metal",
+      "paper",
+      "plastic",
+      "shoe_cover",
+      "shoes",
+      "test_tube",
+      "urine_bag"
+    ]
+  },
+  "detections": [],
+  "summary": {
+    "objects_detected": 0
+  },
+  "output_image": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\results\\inference\\taco_0001_annotated.jpg"
+}

@@ -1,0 +1,12 @@
+{
+  "datasets_audited": [
+    "garbage_dataset",
+    "trashnet_plus_plus",
+    "medical_waste_4_0"
+  ],
+  "total_image_files": 30043,
+  "cross_dataset_exact_duplicate_groups": 0,
+  "cross_dataset_perceptual_candidates": 1280348,
+  "perceptual_threshold_hamming": 2,
+  "note": "Perceptual candidates are not confirmed duplicates. They require visual review."
+}

@@ -1,0 +1,29 @@
+WasteWise AI - ResNet50 Stage 2 Test Evaluation
+============================================================
+
+Test Accuracy      : 0.9661
+Macro Precision    : 0.9541
+Macro Recall       : 0.9619
+Macro F1           : 0.9578
+Weighted Precision : 0.9666
+Weighted Recall    : 0.9661
+Weighted F1        : 0.9662
+Top-3 Accuracy     : 0.9954
+
+
+              precision    recall  f1-score   support
+
+     battery       0.96      0.97      0.96        94
+  biological       0.98      1.00      0.99       100
+   cardboard       0.97      0.98      0.98       183
+     clothes       1.00      0.98      0.99       533
+       glass       0.98      0.94      0.96       306
+       metal       0.90      0.94      0.92       102
+       paper       0.95      0.96      0.96       168
+     plastic       0.93      0.95      0.94       199
+       shoes       0.96      0.98      0.97       198
+       trash       0.91      0.90      0.91        94
+
+    accuracy                           0.97      1977
+   macro avg       0.95      0.96      0.96      1977
+weighted avg       0.97      0.97      0.97      1977

@@ -1,0 +1,29 @@
+WasteWise AI - Baseline CNN Test Evaluation
+============================================================
+
+Test Accuracy      : 0.7203
+Macro Precision    : 0.6807
+Macro Recall       : 0.7121
+Macro F1           : 0.6890
+Weighted Precision : 0.7348
+Weighted Recall    : 0.7203
+Weighted F1        : 0.7217
+Top-3 Accuracy     : 0.9358
+
+
+              precision    recall  f1-score   support
+
+     battery       0.58      0.80      0.67        94
+  biological       0.71      0.92      0.80       100
+   cardboard       0.63      0.87      0.73       183
+     clothes       0.90      0.78      0.84       533
+       glass       0.79      0.71      0.75       306
+       metal       0.54      0.63      0.58       102
+       paper       0.65      0.67      0.66       168
+     plastic       0.63      0.62      0.63       199
+       shoes       0.68      0.58      0.62       198
+       trash       0.70      0.55      0.62        94
+
+    accuracy                           0.72      1977
+   macro avg       0.68      0.71      0.69      1977
+weighted avg       0.73      0.72      0.72      1977

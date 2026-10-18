@@ -1,0 +1,25 @@
+                   precision    recall  f1-score   support
+
+          battery     0.9474    0.9474    0.9474        95
+       biological     0.9615    1.0000    0.9804       100
+            cable     0.8333    0.9375    0.8824        16
+        cardboard     0.9598    0.9176    0.9382       182
+          clothes     0.9924    0.9775    0.9849       533
+electronic_device     0.9697    0.9412    0.9552        34
+            gauze     0.8833    1.0000    0.9381        53
+    general_trash     0.8200    0.8632    0.8410        95
+            glass     0.9671    0.9018    0.9333       326
+      medical_cap     1.0000    1.0000    1.0000        38
+  medical_glasses     1.0000    1.0000    1.0000        40
+   medical_gloves     0.9959    0.9565    0.9758       253
+            metal     0.8106    0.8629    0.8359       124
+            paper     0.8449    0.9405    0.8901       168
+          plastic     0.9074    0.8789    0.8929       223
+       shoe_cover     0.9540    0.9881    0.9708        84
+            shoes     0.9466    0.9848    0.9653       198
+        test_tube     1.0000    1.0000    1.0000        43
+        urine_bag     1.0000    1.0000    1.0000        41
+
+         accuracy                         0.9437      2646
+        macro avg     0.9365    0.9525    0.9438      2646
+     weighted avg     0.9457    0.9437    0.9441      2646

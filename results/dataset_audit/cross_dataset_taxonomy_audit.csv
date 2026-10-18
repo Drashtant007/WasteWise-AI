@@ -1,0 +1,93 @@
+source,original_label,waste_family,canonical_class,recommended_action,notes
+Garbage Dataset,battery,e_waste,battery,classification_core,Battery is both e-waste and potentially hazardous; keep hazard metadata separately.
+Garbage Dataset,biological,organic_biological,biological_waste,classification_core,Do not assume medical contamination from this label.
+Garbage Dataset,cardboard,recyclable,cardboard,classification_core,
+Garbage Dataset,clothes,textile_reusable,textile,classification_core,Clothing/shoes may be reusable rather than waste; preserve this semantic distinction in recommendations.
+Garbage Dataset,glass,recyclable,glass,classification_core,
+Garbage Dataset,metal,recyclable,metal,classification_core,
+Garbage Dataset,paper,recyclable,paper,classification_core,
+Garbage Dataset,plastic,recyclable,plastic,classification_core,
+Garbage Dataset,shoes,textile_reusable,textile,classification_core,Clothing/shoes may be reusable rather than waste; preserve this semantic distinction in recommendations.
+Garbage Dataset,trash,residual,general_trash,classification_core,
+TrashNet++,Cable,e_waste,cable,classification_expansion,
+TrashNet++,Can,recyclable,metal_can,review_required,Confirm whether all source Can examples are metal cans before merging.
+TrashNet++,E-wast,e_waste,electronic_waste,classification_expansion,
+TrashNet++,Glass,recyclable,glass,classification_expansion,
+TrashNet++,Medical Wast,medical,medical_waste_object,review_required,Visual object classification does not establish contamination or infection risk.
+TrashNet++,Metal,recyclable,metal,classification_expansion,
+TrashNet++,Plastic,recyclable,plastic,classification_expansion,
+Medical Waste 4.0,gauze,medical,gauze,classification_medical,gauze/gauzes are retained as source labels for now; canonical merge can be decided after image review.
+Medical Waste 4.0,gauzes,medical,gauze,classification_medical,gauze/gauzes are retained as source labels for now; canonical merge can be decided after image review.
+Medical Waste 4.0,glove_pair_latex,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,glove_pair_nitrile,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,glove_pair_surgery,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,glove_single_latex,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,glove_single_nitrile,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,glove_single_surgery,medical,medical_gloves,classification_medical,Pair/single and material information can be retained as metadata.
+Medical Waste 4.0,medical_cap,medical,medical_cap,classification_medical,
+Medical Waste 4.0,medical_filter,medical,medical_filter,classification_medical,
+Medical Waste 4.0,medical_glasses,medical,medical_glasses,classification_medical,
+Medical Waste 4.0,shoe_cover_pair,medical,medical_shoe_cover,classification_medical,
+Medical Waste 4.0,shoe_cover_single,medical,medical_shoe_cover,classification_medical,
+Medical Waste 4.0,test_tube,medical,test_tube,classification_medical,
+Medical Waste 4.0,urine_bag,medical,urine_bag,classification_medical,
+TACO,Aerosol,hazardous_special,aerosol_container,detection_candidate,Image alone cannot establish chemical contents/toxicity.
+TACO,Aluminium blister pack,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Aluminium foil,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Battery,e_waste,battery,detection_candidate,Useful for future object detection; do not automatically merge with classification images.
+TACO,Broken glass,hazardous_special,broken_glass,detection_candidate,
+TACO,Carded blister pack,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Cigarette,hazardous_special,cigarette,detection_candidate,
+TACO,Clear plastic bottle,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Corrugated carton,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Crisp packet,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Disposable food container,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Disposable plastic cup,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Drink can,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Drink carton,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Egg carton,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Foam cup,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Foam food container,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Food Can,unmapped,unmapped,review_required,No preliminary mapping was assigned.
+TACO,Food waste,organic_biological,food_waste,detection_candidate,
+TACO,Garbage bag,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Glass bottle,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Glass cup,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Glass jar,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Magazine paper,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Meal carton,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Metal bottle cap,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Metal lid,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Normal paper,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Other carton,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Other plastic,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Other plastic bottle,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Other plastic container,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Other plastic cup,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Other plastic wrapper,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Paper bag,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Paper cup,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Paper straw,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Pizza box,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastic bottle cap,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastic film,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastic glooves,unmapped,unmapped,review_required,No preliminary mapping was assigned.
+TACO,Plastic lid,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastic straw,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastic utensils,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Plastified paper bag,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Polypropylene bag,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Pop tab,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Rope & strings,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Scrap metal,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Shoe,textile_reusable,shoe,detection_candidate,
+TACO,Single-use carrier bag,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Six pack rings,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Spread tub,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Squeezable tube,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Styrofoam piece,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Tissues,residual,tissue,detection_candidate,
+TACO,Toilet tube,mixed_packaging,packaging_object,review_required,Object-level labels require image review before deciding canonical classification family.
+TACO,Tupperware,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.
+TACO,Unlabeled litter,residual,unlabeled_litter,detection_candidate,
+TACO,Wrapping paper,recyclable,taco_packaging_object,detection_candidate,Keep TACO object labels separate from the current classification taxonomy.

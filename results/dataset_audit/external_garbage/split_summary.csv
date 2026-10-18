@@ -1,0 +1,4 @@
+split,images,labels,missing_labels,orphan_labels,boxes,invalid_boxes
+train,7324,7324,0,0,51601,10
+valid,2098,2098,0,0,18910,6
+test,1042,1042,0,0,3562,1

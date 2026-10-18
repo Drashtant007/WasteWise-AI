@@ -1,0 +1,768 @@
+{
+  "purpose": "Cross-dataset taxonomy audit before preprocessing and merging.",
+  "warning": "This mapping is preliminary. It does not modify datasets and does not authorize automatic merging.",
+  "rows": [
+    {
+      "source": "Garbage Dataset",
+      "original_label": "battery",
+      "waste_family": "e_waste",
+      "canonical_class": "battery",
+      "recommended_action": "classification_core",
+      "notes": "Battery is both e-waste and potentially hazardous; keep hazard metadata separately."
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "biological",
+      "waste_family": "organic_biological",
+      "canonical_class": "biological_waste",
+      "recommended_action": "classification_core",
+      "notes": "Do not assume medical contamination from this label."
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "cardboard",
+      "waste_family": "recyclable",
+      "canonical_class": "cardboard",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "clothes",
+      "waste_family": "textile_reusable",
+      "canonical_class": "textile",
+      "recommended_action": "classification_core",
+      "notes": "Clothing/shoes may be reusable rather than waste; preserve this semantic distinction in recommendations."
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "glass",
+      "waste_family": "recyclable",
+      "canonical_class": "glass",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "metal",
+      "waste_family": "recyclable",
+      "canonical_class": "metal",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "paper",
+      "waste_family": "recyclable",
+      "canonical_class": "paper",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "plastic",
+      "waste_family": "recyclable",
+      "canonical_class": "plastic",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "shoes",
+      "waste_family": "textile_reusable",
+      "canonical_class": "textile",
+      "recommended_action": "classification_core",
+      "notes": "Clothing/shoes may be reusable rather than waste; preserve this semantic distinction in recommendations."
+    },
+    {
+      "source": "Garbage Dataset",
+      "original_label": "trash",
+      "waste_family": "residual",
+      "canonical_class": "general_trash",
+      "recommended_action": "classification_core",
+      "notes": ""
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Cable",
+      "waste_family": "e_waste",
+      "canonical_class": "cable",
+      "recommended_action": "classification_expansion",
+      "notes": ""
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Can",
+      "waste_family": "recyclable",
+      "canonical_class": "metal_can",
+      "recommended_action": "review_required",
+      "notes": "Confirm whether all source Can examples are metal cans before merging."
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "E-wast",
+      "waste_family": "e_waste",
+      "canonical_class": "electronic_waste",
+      "recommended_action": "classification_expansion",
+      "notes": ""
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Glass",
+      "waste_family": "recyclable",
+      "canonical_class": "glass",
+      "recommended_action": "classification_expansion",
+      "notes": ""
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Medical Wast",
+      "waste_family": "medical",
+      "canonical_class": "medical_waste_object",
+      "recommended_action": "review_required",
+      "notes": "Visual object classification does not establish contamination or infection risk."
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Metal",
+      "waste_family": "recyclable",
+      "canonical_class": "metal",
+      "recommended_action": "classification_expansion",
+      "notes": ""
+    },
+    {
+      "source": "TrashNet++",
+      "original_label": "Plastic",
+      "waste_family": "recyclable",
+      "canonical_class": "plastic",
+      "recommended_action": "classification_expansion",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "gauze",
+      "waste_family": "medical",
+      "canonical_class": "gauze",
+      "recommended_action": "classification_medical",
+      "notes": "gauze/gauzes are retained as source labels for now; canonical merge can be decided after image review."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "gauzes",
+      "waste_family": "medical",
+      "canonical_class": "gauze",
+      "recommended_action": "classification_medical",
+      "notes": "gauze/gauzes are retained as source labels for now; canonical merge can be decided after image review."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_pair_latex",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_pair_nitrile",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_pair_surgery",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_single_latex",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_single_nitrile",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "glove_single_surgery",
+      "waste_family": "medical",
+      "canonical_class": "medical_gloves",
+      "recommended_action": "classification_medical",
+      "notes": "Pair/single and material information can be retained as metadata."
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "medical_cap",
+      "waste_family": "medical",
+      "canonical_class": "medical_cap",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "medical_filter",
+      "waste_family": "medical",
+      "canonical_class": "medical_filter",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "medical_glasses",
+      "waste_family": "medical",
+      "canonical_class": "medical_glasses",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "shoe_cover_pair",
+      "waste_family": "medical",
+      "canonical_class": "medical_shoe_cover",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "shoe_cover_single",
+      "waste_family": "medical",
+      "canonical_class": "medical_shoe_cover",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "test_tube",
+      "waste_family": "medical",
+      "canonical_class": "test_tube",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "Medical Waste 4.0",
+      "original_label": "urine_bag",
+      "waste_family": "medical",
+      "canonical_class": "urine_bag",
+      "recommended_action": "classification_medical",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Aerosol",
+      "waste_family": "hazardous_special",
+      "canonical_class": "aerosol_container",
+      "recommended_action": "detection_candidate",
+      "notes": "Image alone cannot establish chemical contents/toxicity."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Aluminium blister pack",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Aluminium foil",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Battery",
+      "waste_family": "e_waste",
+      "canonical_class": "battery",
+      "recommended_action": "detection_candidate",
+      "notes": "Useful for future object detection; do not automatically merge with classification images."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Broken glass",
+      "waste_family": "hazardous_special",
+      "canonical_class": "broken_glass",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Carded blister pack",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Cigarette",
+      "waste_family": "hazardous_special",
+      "canonical_class": "cigarette",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Clear plastic bottle",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Corrugated carton",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Crisp packet",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Disposable food container",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Disposable plastic cup",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Drink can",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Drink carton",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Egg carton",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Foam cup",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Foam food container",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Food Can",
+      "waste_family": "unmapped",
+      "canonical_class": "unmapped",
+      "recommended_action": "review_required",
+      "notes": "No preliminary mapping was assigned."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Food waste",
+      "waste_family": "organic_biological",
+      "canonical_class": "food_waste",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Garbage bag",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Glass bottle",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Glass cup",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Glass jar",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Magazine paper",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Meal carton",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Metal bottle cap",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Metal lid",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Normal paper",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other carton",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other plastic",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other plastic bottle",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other plastic container",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other plastic cup",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Other plastic wrapper",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Paper bag",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Paper cup",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Paper straw",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Pizza box",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic bottle cap",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic film",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic glooves",
+      "waste_family": "unmapped",
+      "canonical_class": "unmapped",
+      "recommended_action": "review_required",
+      "notes": "No preliminary mapping was assigned."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic lid",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic straw",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastic utensils",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Plastified paper bag",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Polypropylene bag",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Pop tab",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Rope & strings",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Scrap metal",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Shoe",
+      "waste_family": "textile_reusable",
+      "canonical_class": "shoe",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Single-use carrier bag",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Six pack rings",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Spread tub",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Squeezable tube",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Styrofoam piece",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Tissues",
+      "waste_family": "residual",
+      "canonical_class": "tissue",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Toilet tube",
+      "waste_family": "mixed_packaging",
+      "canonical_class": "packaging_object",
+      "recommended_action": "review_required",
+      "notes": "Object-level labels require image review before deciding canonical classification family."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Tupperware",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    },
+    {
+      "source": "TACO",
+      "original_label": "Unlabeled litter",
+      "waste_family": "residual",
+      "canonical_class": "unlabeled_litter",
+      "recommended_action": "detection_candidate",
+      "notes": ""
+    },
+    {
+      "source": "TACO",
+      "original_label": "Wrapping paper",
+      "waste_family": "recyclable",
+      "canonical_class": "taco_packaging_object",
+      "recommended_action": "detection_candidate",
+      "notes": "Keep TACO object labels separate from the current classification taxonomy."
+    }
+  ],
+  "summary": {
+    "sources": {
+      "Garbage Dataset": 10,
+      "TrashNet++": 7,
+      "Medical Waste 4.0": 15,
+      "TACO": 60
+    },
+    "actions": {
+      "classification_core": 10,
+      "classification_expansion": 5,
+      "review_required": 17,
+      "classification_medical": 15,
+      "detection_candidate": 45
+    },
+    "families": {
+      "e_waste": 4,
+      "organic_biological": 2,
+      "recyclable": 46,
+      "textile_reusable": 3,
+      "residual": 3,
+      "medical": 16,
+      "hazardous_special": 3,
+      "mixed_packaging": 13,
+      "unmapped": 2
+    }
+  }
+}

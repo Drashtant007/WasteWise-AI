@@ -1,0 +1,13 @@
+{
+  "total_candidates": 1280348,
+  "distance_distribution": {
+    "0": 417777,
+    "2": 862571
+  },
+  "dataset_pairs": {
+    "garbage_dataset \u2194 medical_waste_4_0": 1270051,
+    "garbage_dataset \u2194 trashnet_plus_plus": 5801,
+    "medical_waste_4_0 \u2194 trashnet_plus_plus": 4496
+  },
+  "distance_0_candidates": 417777
+}

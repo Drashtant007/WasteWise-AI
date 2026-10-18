@@ -1,0 +1,61 @@
+category_id,name,supercategory,annotation_count
+59,Cigarette,Cigarette,1334
+58,Unlabeled litter,Unlabeled litter,1034
+36,Plastic film,Plastic bag & wrapper,902
+5,Clear plastic bottle,Bottle,570
+29,Other plastic,Other plastic,546
+39,Other plastic wrapper,Plastic bag & wrapper,520
+12,Drink can,Can,458
+7,Plastic bottle cap,Bottle cap,418
+55,Plastic straw,Straw,314
+9,Broken glass,Broken glass,276
+57,Styrofoam piece,Styrofoam piece,224
+6,Glass bottle,Bottle,208
+21,Disposable plastic cup,Cup,208
+50,Pop tab,Pop tab,198
+14,Other carton,Carton,186
+33,Normal paper,Paper,164
+8,Metal bottle cap,Bottle cap,160
+27,Plastic lid,Lid,154
+20,Paper cup,Cup,134
+17,Corrugated carton,Carton,128
+0,Aluminium foil,Aluminium foil,124
+40,Single-use carrier bag,Plastic bag & wrapper,122
+4,Other plastic bottle,Bottle,100
+16,Drink carton,Carton,90
+31,Tissues,Paper,84
+42,Crisp packet,Plastic bag & wrapper,78
+45,Disposable food container,Plastic container,76
+49,Plastic utensils,Plastic utensils,74
+10,Food Can,Can,68
+38,Garbage bag,Plastic bag & wrapper,62
+18,Meal carton,Carton,60
+51,Rope & strings,Rope & strings,58
+34,Paper bag,Paper bag,54
+52,Scrap metal,Scrap metal,40
+46,Foam food container,Plastic container,30
+22,Foam cup,Cup,26
+30,Magazine paper,Paper,24
+32,Wrapping paper,Paper,24
+15,Egg carton,Carton,22
+11,Aerosol,Can,20
+28,Metal lid,Lid,20
+43,Spread tub,Plastic container,18
+25,Food waste,Food waste,16
+53,Shoe,Shoe,14
+54,Squeezable tube,Squeezable tube,14
+2,Aluminium blister pack,Blister pack,12
+23,Glass cup,Cup,12
+26,Glass jar,Glass jar,12
+47,Other plastic container,Plastic container,12
+13,Toilet tube,Carton,10
+37,Six pack rings,Plastic bag & wrapper,10
+44,Tupperware,Plastic container,8
+48,Plastic glooves,Plastic glooves,8
+56,Paper straw,Straw,8
+19,Pizza box,Carton,6
+41,Polypropylene bag,Plastic bag & wrapper,6
+1,Battery,Battery,4
+24,Other plastic cup,Cup,4
+3,Carded blister pack,Blister pack,2
+35,Plastified paper bag,Paper bag,0

@@ -1,0 +1,176 @@
+{
+  "dataset": "Medical Waste 4.0",
+  "dataset_root": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\data\\external\\medical_waste_4_0\\Medical-Waste-4.0-Dataset",
+  "total_images": 6321,
+  "image_extensions": {
+    ".jpeg": 2107,
+    ".png": 4214
+  },
+  "leaf_folders": [
+    {
+      "path": "Medical Waste 4.0",
+      "image_count": 6321
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A",
+      "image_count": 5520
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B",
+      "image_count": 801
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\gauze",
+      "image_count": 537
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_pair_latex",
+      "image_count": 429
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_pair_nitrile",
+      "image_count": 519
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_pair_surgery",
+      "image_count": 375
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_single_latex",
+      "image_count": 390
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_single_nitrile",
+      "image_count": 453
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\glove_single_surgery",
+      "image_count": 369
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\medical_cap",
+      "image_count": 381
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\medical_glasses",
+      "image_count": 393
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\shoe_cover_pair",
+      "image_count": 432
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\shoe_cover_single",
+      "image_count": 405
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\test_tube",
+      "image_count": 429
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET A\\urine_bag",
+      "image_count": 408
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\gauzes",
+      "image_count": 93
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_pair_latex",
+      "image_count": 42
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_pair_nitrile",
+      "image_count": 33
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_pair_surgery",
+      "image_count": 54
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_single_latex",
+      "image_count": 48
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_single_nitrile",
+      "image_count": 30
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\glove_single_surgery",
+      "image_count": 45
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\medical_cap",
+      "image_count": 57
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\medical_filter",
+      "image_count": 72
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\medical_glasses",
+      "image_count": 93
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\shoe_cover_pair",
+      "image_count": 45
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\shoe_cover_single",
+      "image_count": 90
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\test_tube",
+      "image_count": 54
+    },
+    {
+      "path": "Medical Waste 4.0\\DATASET B\\urine_bag",
+      "image_count": 45
+    }
+  ],
+  "group_summary": {
+    "Medical Waste 4.0": {
+      "Medical Waste 4.0": 6321,
+      "DATASET A": 5520,
+      "DATASET B": 801,
+      "gauze": 537,
+      "glove_pair_latex": 471,
+      "glove_pair_nitrile": 552,
+      "glove_pair_surgery": 429,
+      "glove_single_latex": 438,
+      "glove_single_nitrile": 483,
+      "glove_single_surgery": 414,
+      "medical_cap": 438,
+      "medical_glasses": 486,
+      "shoe_cover_pair": 477,
+      "shoe_cover_single": 495,
+      "test_tube": 483,
+      "urine_bag": 453,
+      "gauzes": 93,
+      "medical_filter": 72
+    }
+  },
+  "unique_filenames": 6321,
+  "repeated_filename_count": 0,
+  "repeated_filenames": {},
+  "labels": [
+    "DATASET A",
+    "DATASET B",
+    "gauze",
+    "gauzes",
+    "glove_pair_latex",
+    "glove_pair_nitrile",
+    "glove_pair_surgery",
+    "glove_single_latex",
+    "glove_single_nitrile",
+    "glove_single_surgery",
+    "Medical Waste 4.0",
+    "medical_cap",
+    "medical_filter",
+    "medical_glasses",
+    "shoe_cover_pair",
+    "shoe_cover_single",
+    "test_tube",
+    "urine_bag"
+  ]
+}

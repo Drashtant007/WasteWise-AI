@@ -1,0 +1,36 @@
+======================================================================
+EXTERNAL GARBAGE DATASET AUDIT
+======================================================================
+
+Images:              10464
+Valid images:        10464
+Corrupt images:      0
+Label files:         10464
+Missing labels:      0
+Orphan labels:       0
+Invalid boxes:       17
+Invalid class IDs:   0
+Duplicate groups:    0
+Duplicate files:     0
+
+CLASSES
+----------------------------------------------------------------------
+BIODEGRADABLE        annotations= 45395 images=  2287
+CARDBOARD            annotations=  4696 images=  1502
+GLASS                annotations=  7809 images=  2684
+METAL                annotations=  5841 images=  1898
+PAPER                annotations=  4387 images=  1768
+PLASTIC              annotations=  5945 images=  1464
+
+SPLITS
+----------------------------------------------------------------------
+train  images= 7324 labels= 7324 boxes= 51601 missing=  0 orphan=  0 invalid= 10
+valid  images= 2098 labels= 2098 boxes= 18910 missing=  0 orphan=  0 invalid=  6
+test   images= 1042 labels= 1042 boxes=  3562 missing=  0 orphan=  0 invalid=  1
+
+ORPHAN LABELS
+----------------------------------------------------------------------
+
+FINAL STATUS
+----------------------------------------------------------------------
+REVIEW REQUIRED — dataset has structural issues.

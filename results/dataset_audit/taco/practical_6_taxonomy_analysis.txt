@@ -1,0 +1,126 @@
+======================================================================
+TACO PRACTICAL 6-CLASS TAXONOMY ANALYSIS
+======================================================================
+
+SOURCE DATA
+----------------------------------------------------------------------
+Images:                 1500
+Annotations:            4784
+Category definitions:   60
+Annotated categories:   59
+
+PRACTICAL TAXONOMY
+----------------------------------------------------------------------
+0: plastic            annotations=2334  images=1166 share= 48.79%
+1: glass              annotations=254   images=95   share=  5.31%
+2: metal              annotations=459   images=242  share=  9.59%
+3: paper_cardboard    annotations=488   images=344  share= 10.20%
+4: biological         annotations=8     images=7    share=  0.17%
+5: other_trash        annotations=1239  images=468  share= 25.90%
+
+DATASET RETENTION
+----------------------------------------------------------------------
+Original annotations:   4784
+Mapped annotations:     4782
+Unmapped annotations:   2
+Retention:              99.96%
+
+CLASS IMBALANCE
+----------------------------------------------------------------------
+Largest class:          2334
+Smallest class:         8
+Imbalance ratio:        291.75x
+
+IMAGE DISTRIBUTION
+----------------------------------------------------------------------
+Images with mapped labels: 1499
+Single-class images:       867
+Multi-class images:        632
+
+SOURCE CATEGORY MAPPING
+----------------------------------------------------------------------
+
+[plastic]
+  Clear plastic bottle           285
+  Crisp packet                   39
+  Disposable food container      38
+  Disposable plastic cup         104
+  Foam cup                       13
+  Foam food container            15
+  Garbage bag                    31
+  Metal bottle cap               80
+  Metal lid                      10
+  Other plastic                  273
+  Other plastic bottle           50
+  Other plastic container        6
+  Other plastic cup              2
+  Other plastic wrapper          260
+  Paper straw                    4
+  Plastic bottle cap             209
+  Plastic film                   451
+  Plastic glooves                4
+  Plastic lid                    77
+  Plastic straw                  157
+  Plastic utensils               37
+  Polypropylene bag              3
+  Single-use carrier bag         61
+  Spread tub                     9
+  Styrofoam piece                112
+  Tupperware                     4
+
+[glass]
+  Broken glass                   138
+  Glass bottle                   104
+  Glass cup                      6
+  Glass jar                      6
+
+[metal]
+  Aerosol                        10
+  Aluminium foil                 62
+  Drink can                      229
+  Food Can                       34
+  Pop tab                        99
+  Scrap metal                    20
+  Six pack rings                 5
+
+[paper_cardboard]
+  Corrugated carton              64
+  Drink carton                   45
+  Egg carton                     11
+  Magazine paper                 12
+  Meal carton                    30
+  Normal paper                   82
+  Other carton                   93
+  Paper bag                      27
+  Paper cup                      67
+  Pizza box                      3
+  Tissues                        42
+  Wrapping paper                 12
+
+[biological]
+  Food waste                     8
+
+[other_trash]
+  Aluminium blister pack         6
+  Carded blister pack            1
+  Cigarette                      667
+  Rope & strings                 29
+  Shoe                           7
+  Squeezable tube                7
+  Toilet tube                    5
+  Unlabeled litter               517
+
+UNMAPPED ANNOTATED CATEGORIES
+----------------------------------------------------------------------
+  Battery: 2
+
+ZERO-INSTANCE CATEGORY DEFINITIONS
+----------------------------------------------------------------------
+  Plastified paper bag
+
+FINAL AUDIT
+----------------------------------------------------------------------
+REVIEW REQUIRED - annotated TACO categories are unmapped.
+WARNING - 2 annotations would be excluded.
+
+======================================================================

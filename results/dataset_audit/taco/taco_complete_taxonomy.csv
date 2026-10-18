@@ -1,0 +1,61 @@
+taco_category_id,category_name,annotation_count,active
+0,Aluminium foil,62,True
+1,Battery,2,True
+2,Aluminium blister pack,6,True
+3,Carded blister pack,1,True
+4,Other plastic bottle,50,True
+5,Clear plastic bottle,285,True
+6,Glass bottle,104,True
+7,Plastic bottle cap,209,True
+8,Metal bottle cap,80,True
+9,Broken glass,138,True
+10,Food Can,34,True
+11,Aerosol,10,True
+12,Drink can,229,True
+13,Toilet tube,5,True
+14,Other carton,93,True
+15,Egg carton,11,True
+16,Drink carton,45,True
+17,Corrugated carton,64,True
+18,Meal carton,30,True
+19,Pizza box,3,True
+20,Paper cup,67,True
+21,Disposable plastic cup,104,True
+22,Foam cup,13,True
+23,Glass cup,6,True
+24,Other plastic cup,2,True
+25,Food waste,8,True
+26,Glass jar,6,True
+27,Plastic lid,77,True
+28,Metal lid,10,True
+29,Other plastic,273,True
+30,Magazine paper,12,True
+31,Tissues,42,True
+32,Wrapping paper,12,True
+33,Normal paper,82,True
+34,Paper bag,27,True
+35,Plastified paper bag,0,False
+36,Plastic film,451,True
+37,Six pack rings,5,True
+38,Garbage bag,31,True
+39,Other plastic wrapper,260,True
+40,Single-use carrier bag,61,True
+41,Polypropylene bag,3,True
+42,Crisp packet,39,True
+43,Spread tub,9,True
+44,Tupperware,4,True
+45,Disposable food container,38,True
+46,Foam food container,15,True
+47,Other plastic container,6,True
+48,Plastic glooves,4,True
+49,Plastic utensils,37,True
+50,Pop tab,99,True
+51,Rope & strings,29,True
+52,Scrap metal,20,True
+53,Shoe,7,True
+54,Squeezable tube,7,True
+55,Plastic straw,157,True
+56,Paper straw,4,True
+57,Styrofoam piece,112,True
+58,Unlabeled litter,517,True
+59,Cigarette,667,True

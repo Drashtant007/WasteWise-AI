@@ -1,0 +1,15 @@
+{
+  "experiment": "expanded_resnet50_stage1_coco_ood",
+  "dataset": "COCO val2017",
+  "num_images": 5000,
+  "ood_threshold": 0.2383,
+  "rejected_as_unsupported": 1385,
+  "accepted_as_supported": 3615,
+  "ood_rejection_rate": 0.277,
+  "false_acceptance_rate": 0.723,
+  "similarity_min": 0.0744229108095169,
+  "similarity_mean": 0.2782309945061803,
+  "similarity_median": 0.27904410660266876,
+  "similarity_max": 0.5370550155639648,
+  "similarity_std": 0.06503787844648282
+}

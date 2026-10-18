@@ -1,0 +1,16 @@
+{
+  "unique_image_contents_compared": 28686,
+  "perceptual_candidates": 0,
+  "confirmed_cross_dataset_duplicates": 0,
+  "probable_cross_dataset_duplicates": 0,
+  "visually_similar_candidates": 0,
+  "phash_threshold": 8,
+  "dhash_threshold": 8,
+  "pixel_confirm_threshold": 0.985,
+  "pixel_probable_threshold": 0.95,
+  "dataset_pair_candidate_counts": {
+    "garbage_dataset <-> trashnet_plus_plus": 0,
+    "garbage_dataset <-> medical_waste_4_0": 0,
+    "trashnet_plus_plus <-> medical_waste_4_0": 0
+  }
+}

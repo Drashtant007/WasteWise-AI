@@ -1,0 +1,11 @@
+{
+  "annotation_files": 16,
+  "unique_images": 1500,
+  "unique_annotations": 4783,
+  "resolved_images": 1500,
+  "unresolved_images": 0,
+  "clean_annotations": 4783,
+  "statistics": {
+    "repaired": 8
+  }
+}

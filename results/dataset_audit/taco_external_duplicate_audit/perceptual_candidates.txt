@@ -1,0 +1,12 @@
+distance=8
+TACO	C:\Users\Drashtant\Projects\WasteWise-AI\data\processed\taco_detection_practical\images\test\taco_0959.jpg
+EXT	C:\Users\Drashtant\Projects\WasteWise-AI\data\external\garbage_object_detection\train\images\plastic623_jpg.rf.4a11123780f0d1a5bbf88fedbc624b6c.jpg
+
+distance=8
+TACO	C:\Users\Drashtant\Projects\WasteWise-AI\data\processed\taco_detection_practical\images\train\taco_0978.jpg
+EXT	C:\Users\Drashtant\Projects\WasteWise-AI\data\external\garbage_object_detection\train\images\glass1254_jpg.rf.3d8e3dacd31e8edc4ce54b1af8dd6def.jpg
+
+distance=8
+TACO	C:\Users\Drashtant\Projects\WasteWise-AI\data\processed\taco_detection_practical\images\train\taco_0978.jpg
+EXT	C:\Users\Drashtant\Projects\WasteWise-AI\data\external\garbage_object_detection\valid\images\glass1334_jpg.rf.948238b4cd6db6679905bee78b732e44.jpg
+

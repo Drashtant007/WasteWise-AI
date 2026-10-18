@@ -1,0 +1,168 @@
+{
+  "dataset": "TACO",
+  "zip_members": 1981,
+  "json_files": 16,
+  "image_files_in_zip": 1514,
+  "images_referenced_by_json": 1839,
+  "total_annotations": 9568,
+  "category_definitions": {
+    "Aluminium foil": 16,
+    "Battery": 16,
+    "Aluminium blister pack": 16,
+    "Carded blister pack": 16,
+    "Other plastic bottle": 16,
+    "Clear plastic bottle": 16,
+    "Glass bottle": 16,
+    "Plastic bottle cap": 16,
+    "Metal bottle cap": 16,
+    "Broken glass": 16,
+    "Food Can": 16,
+    "Aerosol": 16,
+    "Drink can": 16,
+    "Toilet tube": 16,
+    "Other carton": 16,
+    "Egg carton": 16,
+    "Drink carton": 16,
+    "Corrugated carton": 16,
+    "Meal carton": 16,
+    "Pizza box": 16,
+    "Paper cup": 16,
+    "Disposable plastic cup": 16,
+    "Foam cup": 16,
+    "Glass cup": 16,
+    "Other plastic cup": 16,
+    "Food waste": 16,
+    "Glass jar": 16,
+    "Plastic lid": 16,
+    "Metal lid": 16,
+    "Other plastic": 16,
+    "Magazine paper": 16,
+    "Tissues": 16,
+    "Wrapping paper": 16,
+    "Normal paper": 16,
+    "Paper bag": 16,
+    "Plastified paper bag": 16,
+    "Plastic film": 16,
+    "Six pack rings": 16,
+    "Garbage bag": 16,
+    "Other plastic wrapper": 16,
+    "Single-use carrier bag": 16,
+    "Polypropylene bag": 16,
+    "Crisp packet": 16,
+    "Spread tub": 16,
+    "Tupperware": 16,
+    "Disposable food container": 16,
+    "Foam food container": 16,
+    "Other plastic container": 16,
+    "Plastic glooves": 16,
+    "Plastic utensils": 16,
+    "Pop tab": 16,
+    "Rope & strings": 16,
+    "Scrap metal": 16,
+    "Shoe": 16,
+    "Squeezable tube": 16,
+    "Plastic straw": 16,
+    "Paper straw": 16,
+    "Styrofoam piece": 16,
+    "Unlabeled litter": 16,
+    "Cigarette": 16
+  },
+  "json_reports": [
+    {
+      "file": "TACO/data/annotations.json",
+      "images": 1500,
+      "annotations": 4784,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_1/annotations.json",
+      "images": 101,
+      "annotations": 309,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_10/annotations.json",
+      "images": 100,
+      "annotations": 377,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_11/annotations.json",
+      "images": 100,
+      "annotations": 235,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_12/annotations.json",
+      "images": 100,
+      "annotations": 505,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_13/annotations.json",
+      "images": 100,
+      "annotations": 274,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_14/annotations.json",
+      "images": 100,
+      "annotations": 180,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_15/annotations.json",
+      "images": 85,
+      "annotations": 317,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_2/annotations.json",
+      "images": 92,
+      "annotations": 288,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_3/annotations.json",
+      "images": 97,
+      "annotations": 276,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_4/annotations.json",
+      "images": 89,
+      "annotations": 164,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_5/annotations.json",
+      "images": 112,
+      "annotations": 303,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_6/annotations.json",
+      "images": 97,
+      "annotations": 407,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_7/annotations.json",
+      "images": 127,
+      "annotations": 405,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_8/annotations.json",
+      "images": 100,
+      "annotations": 433,
+      "categories": 60
+    },
+    {
+      "file": "TACO/data/batch_9/annotations.json",
+      "images": 100,
+      "annotations": 311,
+      "categories": 60
+    }
+  ]
+}

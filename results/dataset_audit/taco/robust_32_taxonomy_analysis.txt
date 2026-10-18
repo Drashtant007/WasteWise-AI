@@ -1,0 +1,174 @@
+================================================================================
+TACO 32-CLASS ROBUST TAXONOMY VALIDATION
+================================================================================
+
+SOURCE
+--------------------------------------------------------------------------------
+Original classes:       59
+Original annotations:   4784
+
+PROPOSED TAXONOMY
+--------------------------------------------------------------------------------
+Robust classes:         33
+
+CLASS MAPPING
+--------------------------------------------------------------------------------
+cigarette                   667
+    <- Cigarette                             667
+unlabeled_litter            517
+    <- Unlabeled litter                      517
+plastic_film_wrapper        750
+    <- Plastic film                          451
+    <- Other plastic wrapper                 260
+    <- Crisp packet                           39
+plastic_bottle              335
+    <- Clear plastic bottle                  285
+    <- Other plastic bottle                   50
+other_plastic               273
+    <- Other plastic                         273
+bottle_cap                  289
+    <- Plastic bottle cap                    209
+    <- Metal bottle cap                       80
+plastic_straw               161
+    <- Plastic straw                         157
+    <- Paper straw                             4
+glass_bottle                104
+    <- Glass bottle                          104
+broken_glass                138
+    <- Broken glass                          138
+glass_container              12
+    <- Glass jar                               6
+    <- Glass cup                               6
+plastic_cup                 186
+    <- Disposable plastic cup                104
+    <- Foam cup                               13
+    <- Other plastic cup                       2
+    <- Paper cup                              67
+paper                       148
+    <- Normal paper                           82
+    <- Magazine paper                         12
+    <- Wrapping paper                         12
+    <- Tissues                                42
+carton                      246
+    <- Other carton                           93
+    <- Drink carton                           45
+    <- Corrugated carton                      64
+    <- Meal carton                            30
+    <- Egg carton                             11
+    <- Pizza box                               3
+metal_can                   263
+    <- Drink can                             229
+    <- Food Can                               34
+metal_misc                   30
+    <- Aerosol                                10
+    <- Scrap metal                            20
+pop_tab                      99
+    <- Pop tab                                99
+plastic_lid                  87
+    <- Plastic lid                            77
+    <- Metal lid                              10
+plastic_bag                  95
+    <- Garbage bag                            31
+    <- Single-use carrier bag                 61
+    <- Polypropylene bag                       3
+plastic_container            63
+    <- Disposable food container              38
+    <- Foam food container                    15
+    <- Other plastic container                 6
+    <- Tupperware                              4
+styrofoam                   112
+    <- Styrofoam piece                       112
+plastic_utensil              37
+    <- Plastic utensils                       37
+rope_string                  29
+    <- Rope & strings                         29
+paper_bag                    27
+    <- Paper bag                              27
+aluminium_foil               62
+    <- Aluminium foil                         62
+six_pack_ring                 5
+    <- Six pack rings                          5
+medical_packaging             7
+    <- Aluminium blister pack                  6
+    <- Carded blister pack                     1
+food_waste                    8
+    <- Food waste                              8
+shoe                          7
+    <- Shoe                                    7
+squeezable_tube               7
+    <- Squeezable tube                         7
+toilet_tube                   5
+    <- Toilet tube                             5
+spread_tub                    9
+    <- Spread tub                              9
+plastic_gloves                4
+    <- Plastic glooves                         4
+battery                       2
+    <- Battery                                 2
+
+VALIDATION
+--------------------------------------------------------------------------------
+Mapped source classes:   59
+Unmapped source classes:  0
+Unknown mapped classes:   0
+Source annotations:       4784
+Robust annotations:       4784
+Annotation retention:     100.00%
+Max/min imbalance ratio:  375.00x
+
+RARE ROBUST CLASSES
+--------------------------------------------------------------------------------
+    2 | battery
+    4 | plastic_gloves
+    5 | six_pack_ring
+    5 | toilet_tube
+    7 | medical_packaging
+    7 | shoe
+    7 | squeezable_tube
+    8 | food_waste
+    9 | spread_tub
+   12 | glass_container
+   27 | paper_bag
+   29 | rope_string
+   30 | metal_misc
+   37 | plastic_utensil
+
+ROBUST CLASSES BY FREQUENCY
+--------------------------------------------------------------------------------
+  750 | plastic_film_wrapper
+  667 | cigarette
+  517 | unlabeled_litter
+  335 | plastic_bottle
+  289 | bottle_cap
+  273 | other_plastic
+  263 | metal_can
+  246 | carton
+  186 | plastic_cup
+  161 | plastic_straw
+  148 | paper
+  138 | broken_glass
+  112 | styrofoam
+  104 | glass_bottle
+   99 | pop_tab
+   95 | plastic_bag
+   87 | plastic_lid
+   63 | plastic_container
+   62 | aluminium_foil
+   37 | plastic_utensil
+   30 | metal_misc
+   29 | rope_string
+   27 | paper_bag
+   12 | glass_container
+    9 | spread_tub
+    8 | food_waste
+    7 | medical_packaging
+    7 | shoe
+    7 | squeezable_tube
+    5 | six_pack_ring
+    5 | toilet_tube
+    4 | plastic_gloves
+    2 | battery
+
+FINAL STATUS
+--------------------------------------------------------------------------------
+PASS — every original TACO annotation is represented.

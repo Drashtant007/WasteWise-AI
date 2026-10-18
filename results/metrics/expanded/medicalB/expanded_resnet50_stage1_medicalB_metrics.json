@@ -1,0 +1,86 @@
+{
+  "experiment": "expanded_resnet50_stage1_medicalB_external",
+  "checkpoint": "models\\expanded_resnet50_stage1_best.pth",
+  "dataset": "Medical Waste 4.0 Dataset B",
+  "split": "external_medical_test",
+  "total_external_images": 801,
+  "supported_images": 729,
+  "unsupported_images": 72,
+  "unsupported_classes": {
+    "medical_filter": 72
+  },
+  "num_model_classes": 19,
+  "evaluated_classes": [
+    "gauze",
+    "medical_cap",
+    "medical_glasses",
+    "medical_gloves",
+    "shoe_cover",
+    "test_tube",
+    "urine_bag"
+  ],
+  "accuracy_supported_classes": 0.9615912208504801,
+  "macro_precision_supported_classes": 0.9695042751646525,
+  "macro_recall_supported_classes": 0.9613430016413281,
+  "macro_f1_supported_classes": 0.9633877067945102,
+  "weighted_precision_supported_classes": 0.9630125816475689,
+  "weighted_recall_supported_classes": 0.9615912208504801,
+  "weighted_f1_supported_classes": 0.9604674691975268,
+  "classification_report": {
+    "gauze": {
+      "precision": 0.972972972972973,
+      "recall": 0.7741935483870968,
+      "f1-score": 0.8622754491017964,
+      "support": 93.0
+    },
+    "medical_cap": {
+      "precision": 0.8888888888888888,
+      "recall": 0.9824561403508771,
+      "f1-score": 0.9333333333333333,
+      "support": 57.0
+    },
+    "medical_glasses": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 93.0
+    },
+    "medical_gloves": {
+      "precision": 0.9320754716981132,
+      "recall": 0.9801587301587301,
+      "f1-score": 0.9555125725338491,
+      "support": 252.0
+    },
+    "shoe_cover": {
+      "precision": 0.9925925925925926,
+      "recall": 0.9925925925925926,
+      "f1-score": 0.9925925925925926,
+      "support": 135.0
+    },
+    "test_tube": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "urine_bag": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 45.0
+    },
+    "accuracy": 0.9615912208504801,
+    "macro avg": {
+      "precision": 0.9695042751646525,
+      "recall": 0.9613430016413281,
+      "f1-score": 0.9633877067945102,
+      "support": 729.0
+    },
+    "weighted avg": {
+      "precision": 0.9630125816475689,
+      "recall": 0.9615912208504801,
+      "f1-score": 0.9604674691975268,
+      "support": 729.0
+    }
+  }
+}

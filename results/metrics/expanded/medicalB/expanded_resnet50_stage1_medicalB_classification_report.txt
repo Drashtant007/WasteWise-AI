@@ -1,0 +1,13 @@
+                 precision    recall  f1-score   support
+
+          gauze       0.97      0.77      0.86        93
+    medical_cap       0.89      0.98      0.93        57
+medical_glasses       1.00      1.00      1.00        93
+ medical_gloves       0.93      0.98      0.96       252
+     shoe_cover       0.99      0.99      0.99       135
+      test_tube       1.00      1.00      1.00        54
+      urine_bag       1.00      1.00      1.00        45
+
+       accuracy                           0.96       729
+      macro avg       0.97      0.96      0.96       729
+   weighted avg       0.96      0.96      0.96       729

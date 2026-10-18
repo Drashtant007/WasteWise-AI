@@ -1,0 +1,13 @@
+
+TACO ↔ EXTERNAL DUPLICATE AUDIT
+
+TACO images: 1499
+External images: 10464
+
+Exact SHA-256 cross-dataset matches: 0
+Perceptual candidates (pHash <= 8): 3
+
+Interpretation:
+- Exact matches are definite duplicate-content leakage.
+- Perceptual matches are candidates requiring visual inspection.
+- No dataset files were modified.

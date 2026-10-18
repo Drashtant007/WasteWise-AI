@@ -1,0 +1,30 @@
+{
+  "dataset": "medical_waste_4_0",
+  "path": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\data\\external\\medical_waste_4_0",
+  "images_found": 6321,
+  "valid_images": 6321,
+  "corrupt_images": 0,
+  "zero_byte_files": 0,
+  "unique_sha256_hashes": 6321,
+  "duplicate_groups": 0,
+  "duplicate_images": 0,
+  "formats": {
+    "JPEG": 2107,
+    "PNG": 4214
+  },
+  "modes": {
+    "RGB": 2107,
+    "L": 4214
+  },
+  "dimensions": {
+    "1920x1080": 2107,
+    "640x400": 4214
+  },
+  "aspect_ratios": {
+    "1.778": 2107,
+    "1.6": 4214
+  },
+  "corrupt_files": [],
+  "zero_byte_files_list": [],
+  "duplicate_groups_detail": {}
+}

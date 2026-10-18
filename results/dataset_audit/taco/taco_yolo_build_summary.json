@@ -1,0 +1,30 @@
+{
+  "dataset": "TACO",
+  "purpose": "YOLO object detection",
+  "selected_classes": 23,
+  "selected_images": 1388,
+  "selected_annotations": 4240,
+  "converted_boxes": 4240,
+  "invalid_boxes": 0,
+  "dimension_mismatches": 0,
+  "split": {
+    "train": {
+      "images": 1110,
+      "boxes": 3388
+    },
+    "val": {
+      "images": 139,
+      "boxes": 424
+    },
+    "test": {
+      "images": 139,
+      "boxes": 428
+    }
+  },
+  "seed": 42,
+  "exif_normalization": true,
+  "source_manifest": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\results\\dataset_audit\\taco\\taco_image_manifest_corrected.csv",
+  "source_annotations": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\results\\dataset_audit\\taco\\taco_clean_annotations.csv",
+  "output": "C:\\Users\\Drashtant\\Projects\\WasteWise-AI\\data\\processed\\taco_detection_corrected",
+  "status": "PASS"
+}

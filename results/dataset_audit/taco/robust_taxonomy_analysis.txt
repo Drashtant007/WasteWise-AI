@@ -1,0 +1,248 @@
+================================================================================
+TACO ROBUST TAXONOMY ANALYSIS
+================================================================================
+
+SOURCE
+--------------------------------------------------------------------------------
+Classes:       59
+Annotations:   4784
+
+ALL CLASSES BY FREQUENCY
+--------------------------------------------------------------------------------
+ 667 | TACO 59 | Cigarette
+ 517 | TACO 58 | Unlabeled litter
+ 451 | TACO 36 | Plastic film
+ 285 | TACO  5 | Clear plastic bottle
+ 273 | TACO 29 | Other plastic
+ 260 | TACO 39 | Other plastic wrapper
+ 229 | TACO 12 | Drink can
+ 209 | TACO  7 | Plastic bottle cap
+ 157 | TACO 55 | Plastic straw
+ 138 | TACO  9 | Broken glass
+ 112 | TACO 57 | Styrofoam piece
+ 104 | TACO  6 | Glass bottle
+ 104 | TACO 21 | Disposable plastic cup
+  99 | TACO 50 | Pop tab
+  93 | TACO 14 | Other carton
+  82 | TACO 33 | Normal paper
+  80 | TACO  8 | Metal bottle cap
+  77 | TACO 27 | Plastic lid
+  67 | TACO 20 | Paper cup
+  64 | TACO 17 | Corrugated carton
+  62 | TACO  0 | Aluminium foil
+  61 | TACO 40 | Single-use carrier bag
+  50 | TACO  4 | Other plastic bottle
+  45 | TACO 16 | Drink carton
+  42 | TACO 31 | Tissues
+  39 | TACO 42 | Crisp packet
+  38 | TACO 45 | Disposable food container
+  37 | TACO 49 | Plastic utensils
+  34 | TACO 10 | Food Can
+  31 | TACO 38 | Garbage bag
+  30 | TACO 18 | Meal carton
+  29 | TACO 51 | Rope & strings
+  27 | TACO 34 | Paper bag
+  20 | TACO 52 | Scrap metal
+  15 | TACO 46 | Foam food container
+  13 | TACO 22 | Foam cup
+  12 | TACO 30 | Magazine paper
+  12 | TACO 32 | Wrapping paper
+  11 | TACO 15 | Egg carton
+  10 | TACO 11 | Aerosol
+  10 | TACO 28 | Metal lid
+   9 | TACO 43 | Spread tub
+   8 | TACO 25 | Food waste
+   7 | TACO 53 | Shoe
+   7 | TACO 54 | Squeezable tube
+   6 | TACO  2 | Aluminium blister pack
+   6 | TACO 23 | Glass cup
+   6 | TACO 26 | Glass jar
+   6 | TACO 47 | Other plastic container
+   5 | TACO 13 | Toilet tube
+   5 | TACO 37 | Six pack rings
+   4 | TACO 44 | Tupperware
+   4 | TACO 48 | Plastic glooves
+   4 | TACO 56 | Paper straw
+   3 | TACO 19 | Pizza box
+   3 | TACO 41 | Polypropylene bag
+   2 | TACO  1 | Battery
+   2 | TACO 24 | Other plastic cup
+   1 | TACO  3 | Carded blister pack
+
+RARE CLASS SUMMARY
+--------------------------------------------------------------------------------
+< 10 annotations: 18 classes
+< 20 annotations: 25 classes
+< 50 annotations: 36 classes
+
+CLASSES WITH <10 ANNOTATIONS
+--------------------------------------------------------------------------------
+   1 | Carded blister pack
+   2 | Battery
+   2 | Other plastic cup
+   3 | Pizza box
+   3 | Polypropylene bag
+   4 | Tupperware
+   4 | Plastic glooves
+   4 | Paper straw
+   5 | Toilet tube
+   5 | Six pack rings
+   6 | Aluminium blister pack
+   6 | Glass cup
+   6 | Glass jar
+   6 | Other plastic container
+   7 | Shoe
+   7 | Squeezable tube
+   8 | Food waste
+   9 | Spread tub
+
+CLASSES WITH <20 ANNOTATIONS
+--------------------------------------------------------------------------------
+   1 | Carded blister pack
+   2 | Battery
+   2 | Other plastic cup
+   3 | Pizza box
+   3 | Polypropylene bag
+   4 | Tupperware
+   4 | Plastic glooves
+   4 | Paper straw
+   5 | Toilet tube
+   5 | Six pack rings
+   6 | Aluminium blister pack
+   6 | Glass cup
+   6 | Glass jar
+   6 | Other plastic container
+   7 | Shoe
+   7 | Squeezable tube
+   8 | Food waste
+   9 | Spread tub
+  10 | Aerosol
+  10 | Metal lid
+  11 | Egg carton
+  12 | Magazine paper
+  12 | Wrapping paper
+  13 | Foam cup
+  15 | Foam food container
+
+CLASSES WITH <50 ANNOTATIONS
+--------------------------------------------------------------------------------
+   1 | Carded blister pack
+   2 | Battery
+   2 | Other plastic cup
+   3 | Pizza box
+   3 | Polypropylene bag
+   4 | Tupperware
+   4 | Plastic glooves
+   4 | Paper straw
+   5 | Toilet tube
+   5 | Six pack rings
+   6 | Aluminium blister pack
+   6 | Glass cup
+   6 | Glass jar
+   6 | Other plastic container
+   7 | Shoe
+   7 | Squeezable tube
+   8 | Food waste
+   9 | Spread tub
+  10 | Aerosol
+  10 | Metal lid
+  11 | Egg carton
+  12 | Magazine paper
+  12 | Wrapping paper
+  13 | Foam cup
+  15 | Foam food container
+  20 | Scrap metal
+  27 | Paper bag
+  29 | Rope & strings
+  30 | Meal carton
+  31 | Garbage bag
+  34 | Food Can
+  37 | Plastic utensils
+  38 | Disposable food container
+  39 | Crisp packet
+  42 | Tissues
+  45 | Drink carton
+
+CANDIDATE SEMANTIC GROUPS
+--------------------------------------------------------------------------------
+These groups are candidates for review only.
+They must NOT be applied automatically.
+
+[plastic_bottles] total=335
+    Clear plastic bottle: 285
+    Other plastic bottle: 50
+
+[bottle_caps] total=289
+    Plastic bottle cap: 209
+    Metal bottle cap: 80
+
+[cartons] total=246
+    Other carton: 93
+    Drink carton: 45
+    Corrugated carton: 64
+    Meal carton: 30
+    Egg carton: 11
+    Pizza box: 3
+
+[plastic_cups] total=125
+    Disposable plastic cup: 104
+    Foam cup: 13
+    Glass cup: 6
+    Other plastic cup: 2
+
+[paper_products] total=148
+    Normal paper: 82
+    Magazine paper: 12
+    Wrapping paper: 12
+    Tissues: 42
+
+[paper_bags] total=27
+    Paper bag: 27
+
+[plastic_film_wrappers] total=750
+    Plastic film: 451
+    Other plastic wrapper: 260
+    Crisp packet: 39
+
+[plastic_bags] total=95
+    Garbage bag: 31
+    Single-use carrier bag: 61
+    Polypropylene bag: 3
+
+[plastic_containers] total=63
+    Disposable food container: 38
+    Foam food container: 15
+    Other plastic container: 6
+    Tupperware: 4
+
+[plastic_lids] total=87
+    Plastic lid: 77
+    Metal lid: 10
+
+[straws] total=161
+    Plastic straw: 157
+    Paper straw: 4
+
+[foam_items] total=140
+    Styrofoam piece: 112
+    Foam food container: 15
+    Foam cup: 13
+
+[metal_items] total=392
+    Drink can: 229
+    Food Can: 34
+    Aerosol: 10
+    Scrap metal: 20
+    Pop tab: 99
+
+[glass_items] total=254
+    Glass bottle: 104
+    Broken glass: 138
+    Glass jar: 6
+    Glass cup: 6
+
+[plastic_misc] total=596
+    Other plastic: 273
+    Plastic utensils: 37
+    Plastic lid: 77
+    Plastic bottle cap: 209
