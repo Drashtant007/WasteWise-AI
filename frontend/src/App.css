@@ -11166,3 +11166,139 @@ body,
     width: 100%;
   }
 }
+
+/* =========================================================
+   WASTEWISE — FINAL IMAGE / DETECTION COORDINATE FIX
+   ========================================================= */
+
+/*
+   CRITICAL:
+   The detection boxes use percentages relative to
+   .ww-image-wrapper.
+
+   Therefore .ww-image-wrapper MUST have exactly the
+   same rendered dimensions as the actual <img>.
+
+   Do NOT let the wrapper occupy the entire panel while
+   the image occupies only part of it.
+*/
+
+/* The stage is the viewport/container */
+.ww-image-stage {
+  position: relative !important;
+
+  width: 100% !important;
+
+  overflow: hidden !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+
+  box-sizing: border-box !important;
+
+  border-radius: 18px !important;
+}
+
+
+/*
+   IMPORTANT:
+   Shrink the wrapper to the actual rendered image.
+
+   Previously:
+       width: 100%
+
+   That caused:
+       wrapper width != image width
+
+   which caused:
+       detection coordinates != image coordinates
+*/
+.ww-image-stage .ww-image-wrapper {
+  position: relative !important;
+
+  display: block !important;
+
+  width: fit-content !important;
+  max-width: 100% !important;
+
+  height: auto !important;
+
+  margin: 0 auto !important;
+
+  overflow: visible !important;
+
+  line-height: 0 !important;
+
+  flex: 0 0 auto !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/*
+   The IMAGE controls the wrapper dimensions.
+
+   Do NOT use width: 100% here.
+*/
+.ww-image-stage .ww-image-wrapper > img {
+  position: relative !important;
+
+  display: block !important;
+
+  width: auto !important;
+
+  height: auto !important;
+
+  max-width: 100% !important;
+
+  max-height: calc(100dvh - 370px) !important;
+
+  object-fit: contain !important;
+
+  margin: 0 !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/*
+   Detection boxes must remain positioned relative
+   to the exact image-sized wrapper.
+*/
+.ww-image-stage .ww-image-wrapper .ww-detection-box {
+  position: absolute !important;
+
+  box-sizing: border-box !important;
+
+  z-index: 5 !important;
+
+  display: block !important;
+
+  pointer-events: auto !important;
+}
+
+
+/*
+   Keep detection labels inside the image area as much
+   as possible without changing their coordinates.
+*/
+.ww-image-stage .ww-image-wrapper .ww-detection-box > span {
+  z-index: 30 !important;
+}
+
+
+/*
+   Responsive protection
+*/
+@media (max-width: 1100px) {
+  .ww-image-stage .ww-image-wrapper > img {
+    max-height: 70vh !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .ww-image-stage .ww-image-wrapper > img {
+    max-height: 58vh !important;
+  }
+}
